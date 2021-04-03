@@ -1,0 +1,36 @@
+:root {
+
+    //Primary Colors
+    --very-dark-magenta:rgba(80, 32, 80, 1);
+    --soft-pink:rgba(238, 104, 164, .3);
+
+    //Neutral Colors
+    --dark-grayish-magenta: rgba(147, 123, 146, 1);
+    --light-grayish-magenta:  rgba(247, 242, 247, 1);
+    --white:  rgb(255, 255, 255, 1);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: spartan, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
